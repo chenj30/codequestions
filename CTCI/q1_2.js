@@ -1,4 +1,4 @@
-/* Check Permutation: Given two strings, write a method to decide if one is a permutation of the other. */
+/* Check Permutation: */
 
 //Input: two strings
 //Output: True of False, whether one is a permutation of the other
