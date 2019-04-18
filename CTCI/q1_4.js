@@ -1,4 +1,4 @@
-/* Palindrome Permutation: Given a string, write a function to check if it is a permutation of a palindrome. */
+/* Palindrome Permutation: */
 
 // Input: string
 // Output: boolean
@@ -33,3 +33,7 @@ console.log(palipermu('Taco cat'), true);
 console.log(palipermu('tac o tac'), true);
 console.log(palipermu('rrccaae'), true);
 console.log(palipermu('permumur'), false);
+
+/* Book notes:
+If the string is only alphabet letters (26), then can use a bit vector to represent the counts and check for only one bit toggled
+*/
